@@ -4,6 +4,15 @@ td{
     border: 5px solid darkblue;
 }
 
+body{
+    background-color: rgb(42, 30, 30);
+    color: white;
+}
+#head, #table, #player_stats{
+    display:flex;
+    justify-content: center;
+}
+
 td:hover{
     cursor: pointer;
 }
@@ -11,6 +20,8 @@ td:hover{
 table{
     max-width: 500px;
     border-radius: 10px;;
+    margin-top: 20px;
+    border: 2px solid white;
 }
 
 button{
@@ -24,4 +35,8 @@ button{
 
 button:hover{
     cursor: pointer;
+}
+
+#player_stats{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
